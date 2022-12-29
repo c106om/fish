@@ -1,1 +1,5 @@
 HELLO WORLD!
+git init 
+git remote add origin https://github.com/*
+git add *.
+git commit -m "first commit"
