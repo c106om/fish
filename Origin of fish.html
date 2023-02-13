@@ -1,80 +1,264 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Lorem ipsum</title>
-    <link rel="icon" href="ICONS/fish.ico">
-    
-    <!-- <link rel="stylesheet" href="WebRef.html/stylesheets/reset.css"> -->
-    <style>
-	    html	{height: 100%; background: #c72;}
-	    body	{min-height: 100%; width: 80%; margin: 0 auto; /* center */ padding: 0  20px; border: 0 solid black; border-width: 0 1px; background: #eee;}
-        header {margin: 30px auto; padding: 30px; font: 100% sans-serif;}
-        header > blockquote {color: darkblue; font-style: italic;}
-        
-        a { outline: none; text-decoration: none; padding: 2px 1px 0;}
-        label a:link { color: white;}
-        label a:visited { color: white;}
-        blockquote {background-color: lightgoldenrodyellow; padding: 15px;}
-        header a:link { color: darkblue;}
-        header a:visited { color: darkblue;}
-        header a:focus {border-bottom: 1px dotted;  color: blue;}
-        header a:hover {border-bottom: 1px dashed; color: lightskyblue; text-shadow: 1px 1px 2px black, 0 0 1em red;}
-        header a:active {color: blue;}
-        aside {color: darkblue;}
-        label {background-color: darkblue; color: lightgray; font: smaller bolder areal;}
-        table {border: 2px dashed darkblue;}
-        table:hover em {color: red;}
-        table span {font-style: normal; color: black;}
-        th:lang(la), tr:lang(la) {font-style: italic;} 
-        /* th:hover::before {content: "О пределах добра и зла. Марк Туллий Цицерон"; color: gray; font-style: normal;} */
-        tr:lang(ru) {visibility: collapse;}
-        tr:lang(la):active {visibility: collapse;}
-        tr:lang(la):active + tr {visibility: visible; color: gray;}
-        td {font-weight: bolder; height: auto; vertical-align: top; text-align: justify;}
-    </style>
-  </head>
-  <body>
-    <header title="Подробности смотри в Википедии"><h1>Происхождение рыбы</h1>
-      <a href="https://ru.wikipedia.org/wiki/Lorem_ipsum" target="_blank" rel="nofollow noopener">
-      <blockquote>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-      </blockquote></a>
-    </header>
-    <label><a href="#sourses">Источник</a></label>
-    <table>
-      <tr lang="la"><th>
+<head>
+  <title>Lorem ipsum</title>
+  <link rel="icon" href="fish.ico">
+
+  <style>
+    html {
+      height: 100%;
+      background: #c73;
+      padding: 25px 0;
+    }
+
+    body {
+      min-height: 100%;
+      width: 80%;
+      margin: 0 auto;
+      padding: 0 20px;
+      border: 0 solid black;
+      border-width: 0 1px;
+      background: #eee;
+    }
+
+    header {
+      margin: 30px auto;
+      padding: 30px;
+      font: 100% sans-serif;
+    }
+
+    header>blockquote {
+      color: darkblue;
+      font-style: italic;
+    }
+
+    a {
+      outline: none;
+      text-decoration: none;
+    }
+
+    label a:link {
+      color: white;
+    }
+
+    label a:visited {
+      color: white;
+    }
+
+    blockquote {
+      font-style: italic;
+      padding: 15px;
+    }
+
+    header a:link {
+      color: #444;
+    }
+
+    header a:visited {
+      color: #444;
+    }
+
+    header a:focus {
+      border-bottom: 1px dotted;
+      color: #333;
+    }
+
+    header a:hover {
+      color: #000;
+     
+    }
+
+    header a:active {
+      color: #555;
+    }
+
+    aside {
+      color: darkblue;
+    }
+
+    label {
+      background-color: darkblue;
+      color: lightgray;
+      font: smaller bolder areal;
+      padding: 5px 5px 5px 6px; 
+      border-radius: 8px 8px 0 0;
+    }
+
+    table {
+      border: 4px dashed darkblue;
+    }
+
+    table:hover em {
+      color: red;
+    }
+
+    table span {
+      font-style: normal;
+      color: black;
+    }
+
+    th {
+      cursor: pointer;
+    }
+
+    th:lang(la),
+    tr:lang(la) {
+      font-style: italic;
+    }
+
+    tr:lang(ru) {
+      visibility: collapse;
+      background-color: #ddd;
+      box-shadow: inset 0 0 5px 10px #eee;
+    }
+
+    tr:lang(la):hover {
+      background-color: #ddd;
+      box-shadow: inset 0 0 10px 10px #eee;
+    }
+
+    tr:lang(la):active {
+      visibility: collapse;
+    }
+
+    tr:lang(la):active+tr {
+      visibility: visible;
+      color: gray;
+      
+    }
+
+    td {
+      padding: 0 15px;
+      font-weight: bolder;
+      height: auto;
+      vertical-align: top;
+      text-align: justify;
+      cursor: pointer;
+    }
+  </style>
+</head>
+
+<body>
+  <header title="Подробности смотри в Википедии">
+    <h1>Происхождение рыбы</h1>
+    <a href="https://ru.wikipedia.org/wiki/Lorem_ipsum" target="_blank" rel="nofollow noopener">
+      <blockquote>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+        dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+        laborum.
+
+      </blockquote>
+    </a>
+  </header>
+  <label><a href="#sourses">Источник</a></label>
+  <table>
+    <tr lang="la">
+      <th>
         <h2 title="О пределах добра и зла.">De finibus bonorum et malorum.</h2>
         <cite title="Марк Туллий Цицерон">Marcus Tullius Cicero</cite>
-      </th></tr>
-      <tr lang="ru"><th>
+      </th>
+    </tr>
+    <tr lang="ru">
+      <th>
         <h2>О пределах добра и зла.</h2>
         <cite>Марк Туллий Цицерон</cite>
-      </th></tr>
-      <tr lang="la"><td><br><span>[32]</span>
-	Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui do<em>lorem ipsum</em>, quia <em>dolor sit</em>,<em> amet, consectetur</em>,<em> adipisci </em>v<em>elit</em>,<em> sed</em> quia non numquam <em>eius modi tempor</em>a <em>incidunt</em>,<em> ut labore et dolore magna</em>m <em>aliqua</em>m quaerat voluptatem. <em>Ut enim ad minim</em>a <em>veniam, quis nostrum exercitation</em>em <em>ullam co</em>rporis suscipit <em>labori</em>o<em>s</em>am, <em>nisi ut aliquid ex ea commodi consequat</em>ur? <em>Quis aute</em>m vel eum <em>iure reprehenderit,</em> qui <em>in</em> ea <em>voluptate velit esse</em>, quam nihil molestiae <em>c</em>onsequatur, vel <em>illum</em>, qui <em>dolore</em>m <em>eu</em>m<em> fugiat</em>, quo voluptas </em>nulla pariatur</em>? 
-      </td></tr>
-      <tr lang="ru"><td><br><span>[32]</span>
-  Но чтобы вы поня­ли, откуда воз­ни­ка­ет это пре­врат­ное пред­став­ле­ние людей, пори­цаю­щих наслаж­де­ние и вос­хва­ля­ю­щих стра­да­ния, я рас­крою перед вами всю кар­ти­ну и разъ­яс­ню, что имен­но гово­рил этот чело­век, открыв­ший исти­ну, кото­ро­го я бы назвал зод­чим счаст­ли­вой жиз­ни71. Дей­ст­ви­тель­но, никто не отвер­га­ет, не пре­зи­ра­ет, не избе­га­ет наслаж­де­ний толь­ко из-за того, что это наслаж­де­ния, но лишь из-за того, что тех, кто не уме­ет разум­но пре­да­вать­ся наслаж­де­ни­ям, пости­га­ют вели­кие стра­да­ния. Рав­но как нет нико­го, кто воз­лю­бил бы, пред­по­чел и воз­жаж­дал бы само стра­да­ние толь­ко за то, что это стра­да­ние, а не пото­му, что иной раз воз­ни­ка­ют такие обсто­я­тель­ства, когда стра­да­ния и боль при­но­сят некое и нема­лое наслаж­де­ние. Если вос­поль­зо­вать­ся про­стей­шим при­ме­ром, то кто из нас стал бы зани­мать­ся каки­ми бы то ни было тягост­ны­ми физи­че­ски­ми упраж­не­ни­я­ми, если бы это не при­но­си­ло с собой неко­ей поль­зы? И кто мог бы по спра­вед­ли­во­сти упрек­нуть стре­мя­ще­го­ся к наслаж­де­нию, кото­рое не нес­ло бы с собой ника­ких непри­ят­но­стей, или того, кто избе­гал бы тако­го стра­да­ния, кото­рое не при­но­си­ло бы с собой ника­ко­го наслаж­де­ния?
-      </td></tr>
-      <tr lang="la"><td><br><span>[33]</span>
-  At vero eos et accusamus et iusto odio dignissimos ducimus, qui blanditiis praesentium voluptatum deleniti atque corrupti, quos dolores et quas molestias <em>excepturi sint</em>, <em>o</em>b<em>caecat</em>i<em> cupiditat</em>e<em> non provident, </em>similique <em>sunt in culpa</em>,<em> qui officia deserunt mollit</em>ia<em> animi</em>,<em> id est laborum</em> et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio, cumque nihil impedit, quo minus id, quod maxime placeat, facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet, ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.
-      </td></tr>
-      <tr lang="ru"><td><br><span>[33]</span>
-  Но мы пори­ца­ем и счи­та­ем без­услов­но заслу­жи­ваю­щи­ми спра­вед­ли­во­го него­до­ва­ния тех, кто, будучи обо­льщен­ным и раз­вра­щен­ным соблаз­на­ми пред­став­ля­ю­щих­ся им наслаж­де­ний, в исступ­ле­нии стра­сти не пред­видят, какие стра­да­ния и какие несча­стья их ожи­да­ют. Они винов­ны так же, как и те, кто по душев­ной сла­бо­сти, то есть из жела­ния избе­жать стра­да­ний и боли отка­зы­ва­ет­ся от испол­не­ния сво­его дол­га. Впро­чем, здесь очень лег­ко и про­сто про­ве­сти раз­ли­чия, пото­му что, когда мы сво­бод­ны и нам пре­до­став­ле­на пол­ная воз­мож­ность выбо­ра желае­мо­го, когда ничто не меша­ет нам делать то, что нам боль­ше нра­вит­ся, любое наслаж­де­ние сле­ду­ет при­знать желан­ным, а любое стра­да­ние отвра­ти­тель­ным. Но при неко­то­рых обсто­я­тель­ствах — или по тре­бо­ва­нию дол­га, или в силу какой-то необ­хо­ди­мо­сти часто при­хо­дит­ся забы­вать о наслаж­де­ни­ях и не бежать тяго­стей. Поэто­му муд­рец при­дер­жи­ва­ет­ся в этом слу­чае сле­дую­ще­го прин­ци­па выбо­ра — или, отка­зы­ва­ясь от удо­воль­ст­вия, он полу­ча­ет какие-то иные и даже бо́льшие наслаж­де­ния, или, пре­тер­пе­вая стра­да­ния, он избав­ля­ет­ся от более жесто­ких.
-      </td></tr>
-      <tr lang="la"><td><br><span>[34]</span>
-  Hanc ego cum teneam sententiam, quid est cur verear, ne ad eam non possim accommodare Torquatos nostros? quos tu paulo ante cum memoriter, tum etiam erga nos amice et benivole collegisti, nec me tamen laudandis maioribus meis corrupisti nec segniorem ad respondendum reddidisti. quorum facta quem ad modum, quaeso, interpretaris? sicine eos censes aut in armatum hostem impetum fecisse aut in liberos atque in sanguinem suum tam crudelis fuisse, nihil ut de utilitatibus, nihil ut de commodis suis cogitarent? at id ne ferae quidem faciunt, ut ita ruant itaque turbent, ut earum motus et impetus quo pertineant non intellegamus, tu tam egregios viros censes tantas res gessisse sine causa?
-      </td></tr>
-      <tr lang="ru"><td><br><span>[34]</span>
-  Если я буду при­дер­жи­вать­ся это­го прин­ци­па, то мне нече­го боять­ся, что я не смо­гу согла­со­вать с ним поступ­ки наших Торк­ва­тов, кото­рых ты толь­ко что при­вел в при­мер, про­явив в этом как пре­крас­ное зна­ние исто­рии, так и дру­же­ское и доб­ро­же­ла­тель­ное отно­ше­ние к нам; но тем не менее сво­и­ми хва­ла­ми моим пред­кам ты не под­ку­пил меня и не заста­вил воз­ра­жать тебе с мень­шей реши­тель­но­стью. Ведь как ты, ска­жи на милость, тол­ку­ешь их поступ­ки? Ты же утвер­жда­ешь, что они или напа­да­ли на воору­жен­но­го вра­га, или про­яв­ля­ли страш­ную жесто­кость к сво­им детям, к сво­ей род­ной кро­ви, нима­ло не помыш­ляя ни о поль­зе, ни о соб­ст­вен­ных инте­ре­сах; ведь так? Но даже дикие зве­ри не кида­ют­ся и не вол­ну­ют­ся так, чтобы мы не смог­ли понять, что озна­ча­ют их дви­же­ния и прыж­ки, ты же пола­га­ешь, что столь выдаю­щи­е­ся мужи совер­ша­ли столь важ­ные и серь­ез­ные дея­ния, не имея на то при­чи­ны!
-      </td></tr>
-    </table>
-    <aside>
-      <span id="sourses">Ссылки:</span>
-      <ol>
-        <li><a href="http://ancientrome.ru/antlitr/t.htm?a=1414890001#32" target="_blank" rel="nofollow noopener" >Русский перевод с латинского Н. А. Фёдорова</a> (см. § 32-34)</li>
-        <li><a href="https://la.wikisource.org/wiki/De_finibus_bonorum_et_malorum/Liber_Primus" target="_blank" rel="nofollow noopener" >Оригинал на латинском языке.</a></li>
-      </ol>
-    </aside>
-  </body>
+      </th>
+    </tr>
+    <tr lang="la">
+      <td><br><span>[32]</span>
+        Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem
+        aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
+        Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni
+        dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui do<em>lorem ipsum</em>, quia
+        <em>dolor sit</em>,<em> amet, consectetur</em>,<em> adipisci </em>v<em>elit, sed</em> quia non numquam
+        <em>eius mod</em>i <em>tempor</em>a <em>incidunt</em>,<em> ut labore et dolore magna</em>m <em>aliqua</em>m quaerat
+        voluptatem<em>. Ut enim ad minim</em>a <em>veniam, quis nostrum exercitation</em>em <em>ullam co</em>rporis
+        suscipit <em>labori</em>o<em>s</em>am, <em>nisi ut aliquid ex ea commodi consequat</em>ur? <em>Quis aute</em>m
+        vel eum <em>iure reprehenderit,</em> qui <em>in</em> ea <em>voluptate velit esse</em>, quam nihil molestiae
+        <em>c</em>onsequatur, vel <em>illum</em>, qui <em>dolore</em>m <em>eu</em>m<em> fugiat</em>, quo voluptas
+        </em>nulla pariatur</em>?
+      </td>
+    </tr>
+    <tr lang="ru">
+      <td><br><span>[32]</span>
+        Но чтобы вы поня­ли, откуда воз­ни­ка­ет это пре­врат­ное пред­став­ле­ние людей, пори­цаю­щих наслаж­де­ние и
+        вос­хва­ля­ю­щих стра­да­ния, я рас­крою перед вами всю кар­ти­ну и разъ­яс­ню, что имен­но гово­рил этот
+        чело­век, открыв­ший исти­ну, кото­ро­го я бы назвал зод­чим счаст­ли­вой жиз­ни. Дей­ст­ви­тель­но, никто не
+        отвер­га­ет, не пре­зи­ра­ет, не избе­га­ет наслаж­де­ний толь­ко из-за того, что это наслаж­де­ния, но лишь
+        из-за того, что тех, кто не уме­ет разум­но пре­да­вать­ся наслаж­де­ни­ям, пости­га­ют вели­кие стра­да­ния.
+        Рав­но как нет нико­го, кто воз­лю­бил бы, пред­по­чел и воз­жаж­дал бы само стра­да­ние толь­ко за то, что это
+        стра­да­ние, а не пото­му, что иной раз воз­ни­ка­ют такие обсто­я­тель­ства, когда стра­да­ния и боль
+        при­но­сят некое и нема­лое наслаж­де­ние. Если вос­поль­зо­вать­ся про­стей­шим при­ме­ром, то кто из нас стал
+        бы зани­мать­ся каки­ми бы то ни было тягост­ны­ми физи­че­ски­ми упраж­не­ни­я­ми, если бы это не при­но­си­ло
+        с собой неко­ей поль­зы? И кто мог бы по спра­вед­ли­во­сти упрек­нуть стре­мя­ще­го­ся к наслаж­де­нию,
+        кото­рое не нес­ло бы с собой ника­ких непри­ят­но­стей, или того, кто избе­гал бы тако­го стра­да­ния, кото­рое
+        не при­но­си­ло бы с собой ника­ко­го наслаж­де­ния?
+      </td>
+    </tr>
+    <tr lang="la">
+      <td><br><span>[33]</span>
+        At vero eos et accusamus et iusto odio dignissimos ducimus, qui blanditiis praesentium voluptatum deleniti atque
+        corrupti, quos dolores et quas molestias <em>excepturi sint</em>, <em>o</em>b<em>caecat</em>i<em>
+          cupiditat</em>e<em> non provident, </em>similique <em>sunt in culpa</em>,<em> qui officia deserunt
+          mollit</em>ia<em> animi</em>,<em> id est laborum</em> et dolorum fuga. Et harum quidem rerum facilis est et
+        expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio, cumque nihil impedit, quo minus
+        id, quod maxime placeat, facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus
+        autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet, ut et voluptates repudiandae
+        sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis
+        voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.
+      </td>
+    </tr>
+    <tr lang="ru">
+      <td><br><span>[33]</span>
+        Но мы пори­ца­ем и счи­та­ем без­услов­но заслу­жи­ваю­щи­ми спра­вед­ли­во­го него­до­ва­ния тех, кто, будучи
+        обо­льщен­ным и раз­вра­щен­ным соблаз­на­ми пред­став­ля­ю­щих­ся им наслаж­де­ний, в исступ­ле­нии стра­сти не
+        пред­видят, какие стра­да­ния и какие несча­стья их ожи­да­ют. Они винов­ны так же, как и те, кто по душев­ной
+        сла­бо­сти, то есть из жела­ния избе­жать стра­да­ний и боли отка­зы­ва­ет­ся от испол­не­ния сво­его дол­га.
+        Впро­чем, здесь очень лег­ко и про­сто про­ве­сти раз­ли­чия, пото­му что, когда мы сво­бод­ны и нам
+        пре­до­став­ле­на пол­ная воз­мож­ность выбо­ра желае­мо­го, когда ничто не меша­ет нам делать то, что нам
+        боль­ше нра­вит­ся, любое наслаж­де­ние сле­ду­ет при­знать желан­ным, а любое стра­да­ние отвра­ти­тель­ным. Но
+        при неко­то­рых обсто­я­тель­ствах — или по тре­бо­ва­нию дол­га, или в силу какой-то необ­хо­ди­мо­сти часто
+        при­хо­дит­ся забы­вать о наслаж­де­ни­ях и не бежать тяго­стей. Поэто­му муд­рец при­дер­жи­ва­ет­ся в этом
+        слу­чае сле­дую­ще­го прин­ци­па выбо­ра — или, отка­зы­ва­ясь от удо­воль­ст­вия, он полу­ча­ет какие-то иные и
+        даже бо́льшие наслаж­де­ния, или, пре­тер­пе­вая стра­да­ния, он избав­ля­ет­ся от более жесто­ких.
+      </td>
+    </tr>
+    <tr lang="la">
+      <td><br><span>[34]</span>
+        Hanc ego cum teneam sententiam, quid est cur verear, ne ad eam non possim accommodare Torquatos nostros? quos tu
+        paulo ante cum memoriter, tum etiam erga nos amice et benivole collegisti, nec me tamen laudandis maioribus meis
+        corrupisti nec segniorem ad respondendum reddidisti. quorum facta quem ad modum, quaeso, interpretaris? sicine
+        eos censes aut in armatum hostem impetum fecisse aut in liberos atque in sanguinem suum tam crudelis fuisse,
+        nihil ut de utilitatibus, nihil ut de commodis suis cogitarent? at id ne ferae quidem faciunt, ut ita ruant
+        itaque turbent, ut earum motus et impetus quo pertineant non intellegamus, tu tam egregios viros censes tantas
+        res gessisse sine causa?
+      </td>
+    </tr>
+    <tr lang="ru">
+      <td><br><span>[34]</span>
+        Если я буду при­дер­жи­вать­ся это­го прин­ци­па, то мне нече­го боять­ся, что я не смо­гу согла­со­вать с ним
+        поступ­ки наших Торк­ва­тов, кото­рых ты толь­ко что при­вел в при­мер, про­явив в этом как пре­крас­ное зна­ние
+        исто­рии, так и дру­же­ское и доб­ро­же­ла­тель­ное отно­ше­ние к нам; но тем не менее сво­и­ми хва­ла­ми моим
+        пред­кам ты не под­ку­пил меня и не заста­вил воз­ра­жать тебе с мень­шей реши­тель­но­стью. Ведь как ты, ска­жи
+        на милость, тол­ку­ешь их поступ­ки? Ты же утвер­жда­ешь, что они или напа­да­ли на воору­жен­но­го вра­га, или
+        про­яв­ля­ли страш­ную жесто­кость к сво­им детям, к сво­ей род­ной кро­ви, нима­ло не помыш­ляя ни о поль­зе,
+        ни о соб­ст­вен­ных инте­ре­сах; ведь так? Но даже дикие зве­ри не кида­ют­ся и не вол­ну­ют­ся так, чтобы мы не
+        смог­ли понять, что озна­ча­ют их дви­же­ния и прыж­ки, ты же пола­га­ешь, что столь выдаю­щи­е­ся мужи
+        совер­ша­ли столь важ­ные и серь­ез­ные дея­ния, не имея на то при­чи­ны!
+      </td>
+    </tr>
+  </table>
+  <aside>
+    <h3 id="sourses">Ссылки:</h3>
+    <ol>
+      <li><a href="http://ancientrome.ru/antlitr/t.htm?a=1414890001#32" target="_blank" rel="nofollow noopener">Русский
+          перевод с латинского Н. А. Фёдорова</a> (см. § 32-34)</li>
+      <li><a href="https://la.wikisource.org/wiki/De_finibus_bonorum_et_malorum/Liber_Primus" target="_blank"
+          rel="nofollow noopener">Оригинал на латинском языке.</a></li>
+    </ol>
+  </aside>
+</body>
+
 </html>
