@@ -12,6 +12,10 @@
       padding: 25px 0;
     }
 
+    a {
+      text-decoration: none;
+    }
+
     body {
       min-height: 100%;
       width: 80%;
@@ -28,40 +32,28 @@
       font: 100% sans-serif;
     }
 
-    header>blockquote {
-      color: darkblue;
-      font-style: italic;
-    }
-
-    a {
-      outline: none;
-      text-decoration: none;
-    }
-
-    label a:link {
-      color: white;
-    }
-
-    label a:visited {
-      color: white;
-    }
-
     blockquote {
       font-style: italic;
+      font-style: italic;
       padding: 15px;
+      background-color: #eee;
+      box-shadow: inset 0 0 10px 10px #eee;
+    }
+
+    blockquote:hover {
+      background-color: #fff;
     }
 
     header a:link {
-      color: #444;
+      color: #555;
     }
 
     header a:visited {
-      color: #444;
+      color: #555;
     }
 
     header a:focus {
-      border-bottom: 1px dotted;
-      color: #333;
+      color: #555;
     }
 
     header a:hover {
@@ -109,13 +101,12 @@
 
     tr:lang(ru) {
       visibility: collapse;
-      background-color: #ddd;
-      box-shadow: inset 0 0 5px 10px #eee;
+      color:#555;
+      /* text-shadow: #000 0px 0px 9px; */
     }
 
     tr:lang(la):hover {
-      background-color: #ddd;
-      box-shadow: inset 0 0 10px 10px #eee;
+      text-shadow: #333 0px 0px 9px;
     }
 
     tr:lang(la):active {
@@ -124,8 +115,6 @@
 
     tr:lang(la):active+tr {
       visibility: visible;
-      color: gray;
-      
     }
 
     td {
